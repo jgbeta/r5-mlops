@@ -1,7 +1,7 @@
 # r5-mlops
-# R5 MLOps
+# R5 MLOps - General Overview
 
-
+## Main Points:
 
 **Inference Scalability:**
 - Utilize container orchestration platforms like Kubernetes for efficient scaling.
