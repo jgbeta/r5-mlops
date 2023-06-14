@@ -22,7 +22,7 @@
 - Trigger retraining based on model drift performance metrics.
 
 **Data Versioning:**
-- Establish data versioning strategy for consistency and traceability.
+- Establish data versioning guidelines and strategies for consistency and traceability.
 - Use tools like DVC or AWS Glue DataBrew for tracking changes.
 - Store data in versioned repositories like AWS S3 or AWS Glue Data Catalog.
 - Associate trained model versions with input data versions.
