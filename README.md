@@ -1,20 +1,20 @@
 # r5-mlops
 # R5 MLOps - General Overview
 
-## Main Points:
+## Main for consideration:
 
 **Inference Scalability:**
-- Utilize container orchestration platforms like Kubernetes for efficient scaling.
+- Utilize container platforms like Kubernetes for efficient scaling.
 - Deploy models as standalone Kubernetes pods or EC2 instances.
 - Use AWS Auto Scaling for dynamic infrastructure scaling.
 - Distribute incoming requests with AWS Elastic Load Balancer (ELB).
 
 **Machine Learning CI/CD:**
-- Implement automated CI/CD pipeline for model deployment and versioning.
-- Utilize version control systems like Git for code management.
-- Define infrastructure with AWS CloudFormation or Terraform.
-- Include automated testing and integration tests.
-- Use Jenkins or AWS CodePipeline for CI/CD orchestration.
+- Implement automated CI/CD pipelines for model deployment and versioning.
+- Version control systems: Git.
+- Infrastructure definition: AWS CloudFormation or Terraform.
+- Define and include include automated testing and integration tests.
+- CI/CD implementation: Jenkins or AWS CodePipeline.
 
 **Model Validation (Data Drift and Model Drift):**
 - Set up monitoring to detect data drift and model drift.
