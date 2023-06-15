@@ -38,4 +38,6 @@
 **Logging and Monitoring:**
 - Logging for inference requests, errors, and performance: AWS CloudWatch.
 
+## Flowchart for MLOps Integration:
+
 ![image](https://github.com/jgbeta/r5-mlops/assets/6992682/29775d8f-0025-4199-88e5-54d3c774da3c)
