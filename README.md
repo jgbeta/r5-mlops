@@ -6,7 +6,7 @@
 **Inference Scalability:**
 - Container platforms for efficient scaling: Kubernetes.
 - Deploy models as Kubernetes pods or EC2 instances.
-- Use AWS Auto Scaling for efficent resources use.
+- Use AWS Auto Scaling for efficient resources use.
 - Distribute incoming requests with AWS Elastic Load Balancer.
 
 **Machine Learning CI/CD:**
@@ -17,7 +17,7 @@
 - CI/CD implementation: Jenkins or AWS CodePipeline.
 
 **Model Validation (Data Drift and Model Drift):**
-- Data drift and model drift monitorin and detection: AWS SageMaker Model Monitor / Evidently 
+- Data drift and model drift monitoring and detection: AWS SageMaker Model Monitor / Evidently 
 - Compare data distributions for drift detection.
 - Trigger retraining based on model drift performance metrics.
 
