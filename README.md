@@ -1,7 +1,7 @@
 # r5-mlops
 # R5 MLOps - General Overview
 
-## Main for consideration:
+## Main points for consideration:
 
 **Inference Scalability:**
 - Container platforms for efficient scaling: Kubernetes.
@@ -22,23 +22,19 @@
 - Trigger retraining based on model drift performance metrics.
 
 **Data Versioning:**
-- Establish data versioning guidelines and strategies for consistency and traceability.
-- Use tools like DVC or AWS Glue DataBrew for tracking changes.
-- Store data in versioned repositories like AWS S3 or AWS Glue Data Catalog.
-- Associate trained model versions with input data versions.
+- Define data versioning protocols for consistency and traceability.
+- Store data in AWS S3 or AWS Glue Data Catalog.
+- Ideally, trained model versions should have an association with data versions.
 
 **Model Continuous Training:**
-- Implement continuous training to improve models over time.
-- Set up regular retraining schedules based on business needs.
-- Use frameworks like AWS SageMaker for scalable training pipelines.
-- Integrate automated retraining into CI/CD pipeline.
-
-**Logging and Monitoring:**
-- Implement comprehensive logging for inference requests, errors, and performance.
-- Use centralized logging solutions like AWS CloudWatch Logs or ELK stack.
-- Set up monitoring and alerts using AWS CloudWatch Metrics, Prometheus, or Grafana.
+- Implement continuous training to improve models over time that are linked with the model validation triggers.
+- Set up regular retraining schedules based on business needs (Independent from Model Validation).
+- This could be integrated into the CI/CD pipeline.
 
 **Security and Compliance:**
-- Implement robust security measures for models, data, and infrastructure.
-- Apply access controls and encryption mechanisms.
-- Ensure data privacy and prevent unauthorized access.
+- Implement security measures for models, data, and infrastructure.
+- Apply access controls, encryption, and data privacy.
+
+**Logging and Monitoring:**
+- Logging for inference requests, errors, and performance: AWS CloudWatch.
+
